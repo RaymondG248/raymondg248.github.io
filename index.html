@@ -2,205 +2,134 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Raymond Gao — Computer Science at UC Berkeley. Software engineering, data engineering, machine learning, and scientific computing." />
-  <title>Raymond Gao — Software · Data · Machine Learning</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Raymond Gao — UC Berkeley Computer Science. Software engineering, data engineering, machine learning, and scientific computing." />
+  <title>Raymond Gao</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="page-glow glow-a"></div>
-  <div class="page-glow glow-b"></div>
+  <div class="site-shell">
+    <aside class="sidebar">
+      <div class="profile-mark">RG</div>
+      <h1>Raymond Gao</h1>
+      <p class="role">Computer Science @ UC Berkeley</p>
 
-  <header class="nav-shell">
-    <nav class="nav container">
-      <a class="brand" href="#top" aria-label="Home">RG</a>
-      <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#work">Work</a>
-        <a href="#experience">Experience</a>
-        <a href="#awards">Awards</a>
-      </div>
-    </nav>
-  </header>
+      <section class="side-section">
+        <h2>About</h2>
+        <p>I enjoy tackling problems that require learning unfamiliar systems quickly—whether that means navigating a legacy codebase, building a machine learning pipeline, or working with scientific data.</p>
+        <p>My experience spans software engineering, data infrastructure, machine learning, and scientific computing.</p>
+      </section>
 
-  <main id="top">
-    <section class="hero container">
-      <div class="hero-copy reveal">
-        <div class="eyebrow"><span class="status-dot"></span> UC Berkeley · Computer Science</div>
-        <h1>Building <span class="gradient-text">software, data, and machine learning systems.</span></h1>
-        <p class="hero-sub">I'm Raymond Gao, a CS student at UC Berkeley working across software engineering, machine learning, and scientific computing.</p>
-        <div class="hero-cta">
-          <a class="button" href="#work">Explore my work ↓</a>
+      <section class="side-section">
+        <h2>Contact</h2>
+        <nav class="contact-links" aria-label="Contact links">
+          <a href="mailto:raymond_gao@berkeley.edu">Email <span>↗</span></a>
+          <a href="https://www.linkedin.com/in/raymondgao06" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
+          <a href="https://github.com/RaymondG248" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+          <a href="Raymond_Gao_Resume.pdf" target="_blank" rel="noreferrer">Résumé <span>↗</span></a>
+        </nav>
+      </section>
+
+      <section class="side-section compact">
+        <h2>Core stack</h2>
+        <div class="chips small">
+          <span>Python</span><span>C++</span><span>Java</span><span>SQL</span><span>PyTorch</span><span>Git</span>
         </div>
-        <div class="hero-tech" aria-label="Core technologies">
-          <span>Python</span><span>C++</span><span>Java</span><span>PyTorch</span><span>SQL</span><span>CUDA</span><span>Docker</span>
+      </section>
+    </aside>
+
+    <main class="content">
+      <section class="intro" id="top">
+        <p class="eyebrow">Hello, I'm Raymond.</p>
+        <h2>I build software, data, and machine learning systems.</h2>
+        <p class="lead">I'm Raymond Gao, a sophomore undergrad student at UC Berkeley majoring in Computer Science. I love working across software engineering, machine learning, and scientific computing.
+
+</p>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="section-heading">
+          <h2>Experience</h2>
         </div>
-      </div>
-
-      <div class="hero-panel reveal delay-1" aria-hidden="true">
-        <div class="panel-top">
-          <span>engineering.stack</span>
-          <span class="panel-live">● building</span>
+        <div class="experience-list">
+          <article class="experience-row">
+            <div class="experience-date">2026</div>
+            <div><h3>Software Engineering Intern</h3><p class="org">Edwards Lifesciences Foundation Cardiovascular Innovation and Research Center</p><p>Integrated two legacy C++ cardiovascular imaging systems into a unified multimodal platform and developed coordination logic for a four-thread real-time acquisition pipeline.</p></div>
+          </article>
+          <article class="experience-row">
+            <div class="experience-date">2025–26</div>
+            <div><h3>Simulation & Modeling Engineering Intern</h3><p class="org">Lawrence Berkeley National Laboratory</p><p>Built C++/ROOT analysis and validation pipelines for 25,000+ simulated collision events and automated reconstructed-to-simulated matching across 50+ datasets.</p></div>
+          </article>
+          <article class="experience-row">
+            <div class="experience-date">2025</div>
+            <div><h3>Computational Biochemistry Research Scholar</h3><p class="org">American Chemical Society · Project SEED</p><p>Studied <em>H. pylori</em> tyrosyl-tRNA synthetase using structural analysis and PyMOL to investigate protein conformation and functional regions.</p></div>
+          </article>
+          <article class="experience-row">
+            <div class="experience-date">2024–25</div>
+            <div><h3>Software Engineering Intern</h3><p class="org">Thomas Jefferson National Accelerator Facility</p><p>Engineered Python ETL pipelines for automated processing, filtering, validation, and visualization of high-volume collider simulation data.</p></div>
+          </article>
+          <article class="experience-row">
+            <div class="experience-date">2024</div>
+            <div><h3>Machine Learning Intern</h3><p class="org">Dartmouth Hitchcock Medical Center</p><p>Developed a PyTorch ResNet-18 pathology classifier with class-imbalance handling and GPU training, achieving 98.5% validation ROC-AUC.</p></div>
+          </article>
+          <article class="experience-row">
+            <div class="experience-date">2024</div>
+            <div><h3>Computational Biology Researcher</h3><p class="org">Dartmouth Cancer Research Center · Asojo Lab</p><p>Used PyMOL and computational structural biology methods to investigate protein structures and functional sites.</p></div>
+          </article>
         </div>
-        <div class="stack-row"><span class="stack-index">01</span><strong>Software Engineering</strong><span>C++ · Java · systems</span></div>
-        <div class="stack-row"><span class="stack-index">02</span><strong>Data Engineering</strong><span>Python · ETL · pipelines</span></div>
-        <div class="stack-row"><span class="stack-index">03</span><strong>Machine Learning</strong><span>PyTorch · sklearn</span></div>
-        <div class="stack-row"><span class="stack-index">04</span><strong>Scientific Computing</strong><span>ROOT · CUDA</span></div>
-        <div class="mini-chart">
-          <svg viewBox="0 0 420 130" role="img" aria-label="abstract systems visualization">
-            <defs>
-              <linearGradient id="line" x1="0" x2="1"><stop offset="0" stop-color="#7c6cff"/><stop offset="1" stop-color="#35d0ba"/></linearGradient>
-            </defs>
-            <path d="M8 108 C 55 95, 74 70, 112 77 S 172 94, 205 55 S 259 70, 296 34 S 356 49, 412 16" fill="none" stroke="url(#line)" stroke-width="4" stroke-linecap="round"/>
-            <path d="M8 108 C 55 95, 74 70, 112 77 S 172 94, 205 55 S 259 70, 296 34 S 356 49, 412 16 L412 130 L8 130Z" fill="url(#line)" opacity=".08"/>
-          </svg>
-          <div class="metric"><span>Across research & engineering</span><strong>6 roles</strong></div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading"><h2>Projects & Featured Work</h2></div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="thumb thumb-ml"><div class="thumb-label">98.5%<small>ROC-AUC</small></div></div>
+            <div class="project-body"><div class="project-top"><h3>Pathology Image Classification</h3><span>2024</span></div><p>Built a ResNet-18 classifier for typical vs. atypical squamous cells using 3,127 annotated images, augmentation, stratified splitting, class-weighted loss, and GPU training.</p><div class="chips"><span>PyTorch</span><span>ResNet-18</span><span>Computer Vision</span></div></div>
+          </article>
+
+          <article class="project-card">
+            <div class="thumb thumb-uci"><div class="flow"><b>OCT</b><i>→</i><b>CUDA</b><i>→</i><b>Display</b></div></div>
+            <div class="project-body"><div class="project-top"><h3>Multimodal Cardiovascular Imaging</h3><span>2026</span></div><p>Unified legacy imaging systems into a real-time C++ platform with CUDA signal reconstruction, multithreaded acquisition, and coordinated error handling.</p><div class="chips"><span>C++</span><span>CUDA</span><span>Multithreading</span></div></div>
+          </article>
+
+          <article class="project-card">
+            <div class="thumb thumb-data"><div class="data-nodes"><b>RAW</b><i></i><b>ETL</b><i></i><b>VALIDATE</b></div></div>
+            <div class="project-body"><div class="project-top"><h3>Scientific Data Pipelines</h3><span>2024–25</span></div><p>Built Python ETL and validation workflows for high-volume collider simulation data at Jefferson Lab, with reusable filtering and visualization stages.</p><div class="chips"><span>Python</span><span>ETL</span><span>Data Engineering</span></div></div>
+          </article>
+
+          <article class="project-card">
+            <div class="thumb thumb-lbnl"><div class="bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+            <div class="project-body"><div class="project-top"><h3>Detector Validation at Scale</h3><span>2025–26</span></div><p>Processed 25,000+ simulated particle-collision events and automated validation across 50+ datasets using C++ and ROOT.</p><div class="chips"><span>C++</span><span>ROOT</span><span>Scientific Computing</span></div></div>
+          </article>
+
+          <article class="project-card">
+            <div class="thumb thumb-byow"><div class="pixel-world" aria-hidden="true"></div></div>
+            <div class="project-body"><div class="project-top"><h3>Build Your Own World</h3><span>2026</span></div><p>Built a deterministic Java 2D world-generation game with BFS pathfinding, multi-floor exploration, moving enemies, save/load persistence, and interactive game systems.</p><div class="chips"><span>Java</span><span>OOP</span><span>BFS</span><span>Data Structures</span></div></div>
+          </article>
+
+          <article class="project-card">
+            <div class="thumb thumb-bio"><div class="molecule"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+            <div class="project-body"><div class="project-top"><h3>Protein Structure Analysis</h3><span>2024–25</span></div><p>Investigated protein structures and functional sites using PyMOL and computational structural biology methods through ACS Project SEED and the Asojo Lab.</p><div class="chips"><span>PyMOL</span><span>Structural Biology</span><span>Protein Analysis</span></div></div>
+          </article>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="signal-strip container" aria-label="Selected impact metrics">
-      <div class="signal-grid">
-        <div class="signal-card"><span class="signal-label">Machine Learning</span><strong>98.5%</strong><span>validation ROC-AUC</span></div>
-        <div class="signal-card"><span class="signal-label">Scientific Computing</span><strong>25K+</strong><span>simulation events analyzed</span></div>
-        <div class="signal-card"><span class="signal-label">Validation</span><strong>50+</strong><span>datasets automated</span></div>
-        <div class="signal-card"><span class="signal-label">Systems</span><strong>4</strong><span>coordinated acquisition threads</span></div>
-      </div>
-    </section>
-
-    <section id="about" class="section container about-grid about-top">
-      <div class="about-card reveal">
-        <span class="kicker">About</span>
-        <h2>About me.</h2>
-        <p>I enjoy tackling problems where I have to learn unfamiliar systems, whether that means navigating a legacy codebase, building a machine learning pipeline, or working with scientific data.</p>
-        <p>My experiences have taken me across machine learning, software engineering, and computational biology which has made me especially interested in building technology that connects strong engineering with real-world problems.</p>
-        <div class="about-actions">
-          <a class="button" href="mailto:raymond_gao@berkeley.edu">Email ↗</a>
-          <a class="ghost-button" href="https://www.linkedin.com/in/raymondgao06" target="_blank" rel="noreferrer">LinkedIn ↗</a>
-          <a class="ghost-button" href="Raymond_Gao_Resume.pdf" target="_blank" rel="noreferrer">Résumé ↗</a>
+      <section class="section" id="awards">
+        <div class="section-heading"><h2>Awards & Recognition</h2></div>
+        <div class="awards-list">
+          <article><span>NASA HUNCH</span><h3>Design & Prototype Challenge Semifinalist</h3><p>Lunar Bamboo Greenhouse</p></article>
+          <article><span>ISS Innovation Challenge</span><h3>Best in Show</h3><p>International Space Station Innovation Challenge</p></article>
+          <article><span>National History Day</span><h3>Website Category Semi-Finalist</h3><p>National competition recognition</p></article>
+          <article><span>Publication</span><h3>Structural Biology Research</h3><p><em>Structures of Trichomonas vaginalis Macrophage Migratory Inhibitory Factor</em></p></article>
         </div>
-      </div>
-      <div class="skills-card reveal delay-1">
-        <div class="skills-group"><span>Languages</span><div><b>Python</b><b>C/C++</b><b>Java</b><b>SQL</b></div></div>
-        <div class="skills-group"><span>ML & Data</span><div><b>PyTorch</b><b>Scikit-learn</b><b>NumPy</b><b>Pandas</b><b>Matplotlib</b><b>ETL Pipelines</b></div></div>
-        <div class="skills-group"><span>Systems & Scientific</span><div><b>CUDA</b><b>ROOT</b><b>Multithreading</b><b>PyMOL</b></div></div>
-        <div class="skills-group"><span>Tools</span><div><b>Git</b><b>GitHub</b><b>Docker</b><b>Visual Studio</b><b>IntelliJ</b></div></div>
-      </div>
-    </section>
+      </section>
 
-
-    <section id="work" class="section container">
-      <div class="section-head reveal">
-        <div>
-          <span class="kicker">Featured work</span>
-          <h2>Systems built across software, data, and ML.</h2>
-        </div>
-        <p>A selection of engineering and research work spanning real-time systems, data pipelines, machine learning, and scientific computing.</p>
-      </div>
-
-      <div class="project-grid">
-        <article class="project-card featured reveal">
-          <div class="project-copy">
-            <div class="project-meta"><span>Machine Learning</span><span>Dartmouth Hitchcock</span></div>
-            <h3>Deep learning for pathology classification</h3>
-            <p>Developed a PyTorch ResNet-18 classifier for typical vs. atypical squamous cells across 3,127 annotated pathology images, using augmentation, stratified splitting, class-weighted loss, GPU training, and ROC-AUC evaluation.</p>
-            <div class="tag-row"><span>PyTorch</span><span>ResNet-18</span><span>Computer Vision</span><span>ROC-AUC</span></div>
-          </div>
-          <div class="project-visual visual-ml">
-            <div class="matrix"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
-            <div class="visual-label"><small>VALIDATION</small><strong>0.985</strong></div>
-          </div>
-        </article>
-
-        <article class="project-card reveal">
-          <div class="project-meta"><span>Software Engineering</span><span>Edwards LifeSciences CIRC</span></div>
-          <h3>Unified multimodal imaging platform</h3>
-          <p>Integrated two legacy C++ cardiovascular imaging systems into one real-time platform, combining CUDA signal reconstruction with event-driven coordination for a four-thread acquisition pipeline.</p>
-          <div class="pipeline" aria-hidden="true"><div>Acquire</div><span>→</span><div>CUDA</div><span>→</span><div>Display</div></div>
-          <div class="tag-row"><span>C++</span><span>CUDA</span><span>Multithreading</span><span>Real-time</span></div>
-        </article>
-
-        <article class="project-card reveal delay-1">
-          <div class="project-meta"><span>Data Engineering</span><span>Jefferson Lab</span></div>
-          <h3>ETL & validation pipelines</h3>
-          <p>Engineered Python ETL pipelines for automated processing, filtering, validation, and visualization of high-volume collider simulation data, with reusable evaluation workflows across experimental conditions.</p>
-          <div class="data-flow" aria-hidden="true"><span>RAW</span><i></i><span>ETL</span><i></i><span>VALIDATE</span></div>
-          <div class="tag-row"><span>Python</span><span>ETL</span><span>Data Pipelines</span><span>Visualization</span></div>
-        </article>
-
-        <article class="project-card reveal">
-          <div class="project-meta"><span>Simulation & Modeling</span><span>Lawrence Berkeley National Lab</span></div>
-          <h3>Reproducible detector validation at scale</h3>
-          <p>Built C++/ROOT analysis pipelines for 25,000+ simulated particle-collision events and automated reconstructed-to-simulated matching across 50+ datasets for detector performance validation.</p>
-          <div class="bars" aria-hidden="true"><i style="--h:34%"></i><i style="--h:48%"></i><i style="--h:42%"></i><i style="--h:69%"></i><i style="--h:58%"></i><i style="--h:82%"></i><i style="--h:74%"></i><i style="--h:92%"></i></div>
-          <div class="tag-row"><span>C++</span><span>ROOT</span><span>Validation</span><span>Simulation</span></div>
-        </article>
-
-        <article class="project-card reveal delay-1">
-          <div class="project-meta"><span>Software Engineering</span><span>UC Berkeley · CS 61B</span></div>
-          <h3>Build Your Own World</h3>
-          <p>Built a Java game engine that generates deterministic 2D worlds from a user-provided seed, with graph-based pathfinding, interactive gameplay systems, multi-floor exploration, and persistent save/load behavior.</p>
-          <div class="pipeline" aria-hidden="true"><div>Generate</div><span>→</span><div>Explore</div><span>→</span><div>Save</div></div>
-          <div class="tag-row"><span>Java</span><span>OOP</span><span>BFS</span><span>Data Structures</span></div>
-        </article>
-
-        <article class="project-card reveal delay-1">
-          <div class="project-meta"><span>Computational Biology</span><span>ACS · Asojo Lab</span></div>
-          <h3>Protein structure & functional analysis</h3>
-          <p>Investigated protein structures and functional sites using PyMOL and computational structural biology methods, including work on <em>H. pylori</em> tyrosyl-tRNA synthetase and <em>T. vaginalis</em> MIF.</p>
-          <div class="protein-orbit" aria-hidden="true"><span class="nucleus"></span><i class="orbit one"></i><i class="orbit two"></i><i class="orbit three"></i></div>
-          <div class="tag-row"><span>PyMOL</span><span>Structural Biology</span><span>Protein Analysis</span></div>
-        </article>
-      </div>
-    </section>
-
-    <section id="experience" class="section container">
-      <div class="section-head reveal"><div><span class="kicker">Experience</span><h2>Research and engineering experience.</h2></div></div>
-      <div class="timeline">
-        <article class="timeline-item reveal"><div class="time">Jun 2026 — Aug 2026</div><div class="timeline-body"><h3>Software Engineering Intern</h3><p class="org">Edwards Lifesciences Foundation Cardiovascular Innovation and Research Center</p><p>Unified legacy cardiovascular imaging systems, integrated CUDA reconstruction, and engineered synchronization and error handling for a multithreaded acquisition pipeline.</p></div></article>
-        <article class="timeline-item reveal"><div class="time">Nov 2025 — May 2026</div><div class="timeline-body"><h3>Simulation & Modeling Engineering Intern</h3><p class="org">Lawrence Berkeley National Laboratory</p><p>Developed scientific analysis, matching, visualization, and validation pipelines for large-scale detector simulation studies.</p></div></article>
-        <article class="timeline-item reveal"><div class="time">Jun 2025 — Aug 2025</div><div class="timeline-body"><h3>Computational Biochemistry Research Scholar</h3><p class="org">American Chemical Society · Project SEED</p><p>Investigated protein structure, enzymatic mechanisms, and therapeutic relevance of <em>H. pylori</em> tyrosyl-tRNA synthetase.</p></div></article>
-        <article class="timeline-item reveal"><div class="time">Oct 2024 — May 2025</div><div class="timeline-body"><h3>Data Engineering Intern</h3><p class="org">Thomas Jefferson National Accelerator Facility</p><p>Engineered Python ETL, filtering, validation, and visualization workflows for high-volume collider simulation data.</p></div></article>
-        <article class="timeline-item reveal"><div class="time">Jun 2024 — Aug 2024</div><div class="timeline-body"><h3>Machine Learning Intern</h3><p class="org">Dartmouth Hitchcock Medical Center</p><p>Built and evaluated a deep-learning pathology classifier with class-imbalance handling and GPU-accelerated training.</p></div></article>
-        <article class="timeline-item reveal"><div class="time">Jun 2024 — Aug 2024</div><div class="timeline-body"><h3>Computational Biology Researcher</h3><p class="org">Dartmouth Cancer Research Center · Asojo Lab</p><p>Used computational structural biology and PyMOL to investigate protein structures and functional sites.</p></div></article>
-      </div>
-    </section>
-
-    <section id="awards" class="section container">
-      <div class="section-head reveal">
-        <div><span class="kicker">Awards & recognition</span><h2>Selected recognition.</h2></div>
-        <p>Highlights from technical, research, and academic work.</p>
-      </div>
-      <div class="awards-grid">
-        <article class="award-card reveal">
-          <span class="award-type">NASA HUNCH</span>
-          <h3>Design & Prototype Challenge Semifinalist</h3>
-          <p>Lunar Bamboo Greenhouse · national design challenge</p>
-        </article>
-        <article class="award-card reveal delay-1">
-          <span class="award-type">Award</span>
-          <h3>Best in Show</h3>
-          <p>International Space Station Innovation Challenge</p>
-        </article>
-        <article class="award-card reveal delay-1">
-          <span class="award-type">Competition</span>
-          <h3>Website Category Semi-Finalist</h3>
-          <p>National History Day</p>
-        </article>
-        <article class="award-card reveal">
-          <span class="award-type">Publication</span>
-          <h3><a href="https://journals.iucr.org/f/issues/2024/12/00/ir5039/index.html" target="_blank" rel="noreferrer">Structural Biology Research</a></h3>
-          <p><em>Structures of Trichomonas vaginalis Macrophage Migratory Inhibitory Factor</em> · Acta Crystallographica Section F</p>
-        </article>
-      </div>
-    </section>
-
-
-
-
-  </main>
-
-  <footer class="footer container"><span>© 2026 Raymond Gao</span><span>Software · Data · Machine Learning</span></footer>
+      <footer>
+        <p>© 2026 Raymond Gao</p>
+        <a href="#top">Back to top ↑</a>
+      </footer>
+    </main>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
